@@ -2,19 +2,14 @@
 header{
   text-align: center;
   border-radius: 10px;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
-}
-#header1 {
-  border-radius: 10px;
+  width: 100vw;
   height: 100px;
   background-color: rgb(255, 255, 255);
    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
 }
 body {
-  background: url(images/фон6.png);
-}
+   background-image: url(fon6.png);
+  }
 
 p{
   padding: 15px; 
@@ -30,7 +25,7 @@ p3{
   margin: 10;
   font-size: 25px;
   font-weight: bold;
-  text-align: center;
+
 
 }
 .fig {
@@ -42,29 +37,19 @@ a{
   text-decoration: none
 }
 
-footer{
-  margin-right: 100px;
-  text-align: center;
-  height:40px; 
-  background-color: #ffffff; 
-  width: 1260px;
-  border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
-}
-
-.bod{
-  margin-top: 34px;
-  text-align: center;
-}
 #sidebar1{ 
   background-color: #ffffff;
-  width:200px;
+  width:190px;
   padding: 10px;
   float: left; /* Размещаем блок справа от других элементов.*/
   border-radius: 10px; 
   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
 }
 
-
+.bod{
+  margin-top: 34px;
+  text-align: center;
+}
+.container { width: 400px; margin:0 auto; }
 
 
